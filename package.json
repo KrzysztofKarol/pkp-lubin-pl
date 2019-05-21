@@ -5,7 +5,7 @@
   "author": "Krzysztof Karol",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nodemon --inspect node_modules/.bin/nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -14,10 +14,13 @@
     "test": "jest"
   },
   "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
+    "@ant-design/icons": "^1.1.16",
+    "@nuxtjs/pwa": "^2.6.0",
     "ant-design-vue": "^1.1.10",
-    "@nuxtjs/pwa": "^2.6.0"
+    "cross-env": "^5.2.0",
+    "moment": "^2.24.0",
+    "nuxt": "^2.4.0",
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
